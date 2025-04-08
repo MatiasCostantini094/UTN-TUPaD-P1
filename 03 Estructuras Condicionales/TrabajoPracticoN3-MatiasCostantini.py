@@ -100,6 +100,20 @@
 #    print("opcion invalida. Por favor , elige 1 , 2 o 3.")
 
 #Actividad - 9-
-#Maginitur de terroemoto/Clasificacione
+#Maginitud de terroemoto/Clasificacione
 
-#Solicitamos al usuario que ingrese la magnitur del terremoto
+#Solicitamos al usuario que ingrese la magnitud del terremoto
+#magnitud = float(input("Ingrese la magnitud del terremoto segun la escala de Richter: "))
+#Se clasifica la magnitud y se muestra el resultado
+#if magnitud < 3:
+#    print("Muy leve (imperceptible).")
+#elif 3 <= magnitud < 4:
+#    print("Leve (ligeramente perceptible).")
+#elif 4 <= magnitud < 5:
+#    print("Moderado (sentido por personas , pero generalmente no causa daño).")
+#elif 5 <= magnitud < 6:
+#    print("Fuerte (puede causar daños en estructuras debiles).")
+#elif 6 <= magnitud < 7:
+#    print("Muy fuerte (puede causar daños significativos).")
+#else:
+#    print("Extremo (puede causar daños a gran escala).")
