@@ -119,32 +119,33 @@
 #    print("Extremo (puede causar daños a gran escala).")
 
 #Actividad -10-
-# Solicitar al usuario su ubicación y fecha
-hemisferio = input("¿En qué hemisferio te encuentras? (N para norte, S para sur): ").upper()
-mes = int(input("Ingresa el número del mes actual (1 para enero, 2 para febrero, etc.): "))
-dia = int(input("Ingresa el día del mes actual: "))
+# Solicitamos feches y hemisferio para ver estacion 
+#Se establecen las variables
+#hemisferio = input("¿En qué hemisferio te encuentras? (N para norte, S para sur): ").upper()
+#mes = int(input("Ingresa el número del mes actual (1 para enero, 2 para febrero, etc.): "))
+#dia = int(input("Ingresa el día del mes actual: "))
 
 # Determina la estación según la información proporcionada por el usuario
-if hemisferio == "N":
-    if (mes == 12 and dia >= 21) or (mes in [1, 2]) or (mes == 3 and dia <= 20):
-        estacion = "Invierno"
-    elif (mes == 3 and dia >= 21) or (mes in [4, 5]) or (mes == 6 and dia <= 20):
-        estacion = "Primavera"
-    elif (mes == 6 and dia >= 21) or (mes in [7, 8]) or (mes == 9 and dia <= 20):
-        estacion = "Verano"
-    elif (mes == 9 and dia >= 21) or (mes in [10, 11]) or (mes == 12 and dia <= 20):
-        estacion = "Otoño"
-elif hemisferio == "S":
-    if (mes == 12 and dia >= 21) or (mes in [1, 2]) or (mes == 3 and dia <= 20):
-        estacion = "Verano"
-    elif (mes == 3 and dia >= 21) or (mes in [4, 5]) or (mes == 6 and dia <= 20):
-        estacion = "Otoño"
-    elif (mes == 6 and dia >= 21) or (mes in [7, 8]) or (mes == 9 and dia <= 20):
-        estacion = "Invierno"
-    elif (mes == 9 and dia >= 21) or (mes in [10, 11]) or (mes == 12 and dia <= 20):
-        estacion = "Primavera"
-else:
-    estacion = "Hemisferio desconocido. Por favor ingresa N o S."
+#if hemisferio == "N":
+#    if (mes == 12 and dia >= 21) or (mes in [1, 2]) or (mes == 3 and dia <= 20):
+#        estacion = "Invierno"
+#    elif (mes == 3 and dia >= 21) or (mes in [4, 5]) or (mes == 6 and dia <= 20):
+#        estacion = "Primavera"
+#    elif (mes == 6 and dia >= 21) or (mes in [7, 8]) or (mes == 9 and dia <= 20):
+#        estacion = "Verano"
+#    elif (mes == 9 and dia >= 21) or (mes in [10, 11]) or (mes == 12 and dia <= 20):
+#        estacion = "Otoño"
+#elif hemisferio == "S":
+#    if (mes == 12 and dia >= 21) or (mes in [1, 2]) or (mes == 3 and dia <= 20):
+#        estacion = "Verano"
+#    elif (mes == 3 and dia >= 21) or (mes in [4, 5]) or (mes == 6 and dia <= 20):
+#        estacion = "Otoño"
+#    elif (mes == 6 and dia >= 21) or (mes in [7, 8]) or (mes == 9 and dia <= 20):
+#        estacion = "Invierno"
+#    elif (mes == 9 and dia >= 21) or (mes in [10, 11]) or (mes == 12 and dia <= 20):
+#        estacion = "Primavera"
+#else:
+#    estacion = "Hemisferio desconocido. Por favor ingresa N o S."
 
 # Mostrar el resultado por pantalla
-print(f"La estación en la que te encuentras es: {estacion}")
+#print(f"La estación en la que te encuentras es: {estacion}")
