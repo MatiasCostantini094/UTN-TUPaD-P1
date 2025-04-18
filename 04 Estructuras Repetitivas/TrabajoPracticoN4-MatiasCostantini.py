@@ -1,7 +1,7 @@
 # Trabajo Practico N4  Estructuras repetitivas
 #Matias Costantini 
-"""
 # Actividad 1
+"""
 print("Este programa imprime los valores de 0 a 100 , en orden creciente")          # Mensaje en pantalla
 cont = 0                 #contador iniciado en 0
 while cont <= 100:      #Condicion de bucle , indica que el contador debe ser menor o igual a 100
@@ -92,7 +92,7 @@ positivo= 0                #Contador positvo
 impar= 0                #contador impar
 par = 0                 #Contador par
 contador= 0            #Contador general para corte
-while contador < 101:    #Se establece el limite del Contador 
+while contador < 100:    #Se establece el limite del Contador 
     numero = int(input("Ingrese el numero distinto al 0 \n"))
     if numero > 0 and numero % 2 == 0:  #el numero que es positvo y par se incrementa en esta sec
         par += 1
@@ -116,10 +116,10 @@ print(f"Los numeros negativos {negativo}")
 """
 total= 0
 contador = 0
-while contador < 3:
-    numero = (input("Ingrese un numero "))
-    total += numero
-    contador += 1
+while contador < 100:                      # se establece el limite del contador
+    numero = input(input("Ingrese un numero ")) # Se solicita que el usuario ingrese un numero
+    total += numero                             # Se suma los numeros aculuados
+    contador += 1                               # Es el contador que se acumula para contar el while
     media= total // contador
 print(f"La media de los numeros ingresados es {media}")
 """
