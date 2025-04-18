@@ -85,9 +85,44 @@ for i in range(0,numero):                                     #Se establece el r
 print(f"La suma de los numeros comprendidos entre el 0 y {numero} es : \n {suma}") #Mensajeecon el resultado final
 """
 #Actividad 8 
-
+"""
+print("100 enteros")   #Titutolo de app
+negativo= 0                #Contador negativo
+positivo= 0                #Contador positvo
+impar= 0                #contador impar
+par = 0                 #Contador par
+contador= 0            #Contador general para corte
+while contador < 101:    #Se establece el limite del Contador 
+    numero = int(input("Ingrese el numero distinto al 0 \n"))
+    if numero > 0 and numero % 2 == 0:  #el numero que es positvo y par se incrementa en esta sec
+        par += 1
+        positivo +=1
+    elif numero > 0 and numero % 2 == 1: # el numero que es  positvo e impar se incrementa en esta sec
+        impar += 1
+        positivo +=1
+    elif numero < 0 and numero % 2 == 0: # el numero que es negativo  y par se incrementan en esta sec
+        par += 1
+        negativo += 1
+    elif numero < 0 and numero % 2 == 1: # el numero que es negativo e impar se incrementa en esta sec 
+        impar += 1
+        negativo += 1
+    contador += 1
+print(f"Los numeros pares son {par}")
+print(f"Los numeros impares son {impar}")
+print(f"Los numeros positivos {positivo}")
+print(f"Los numeros negativos {negativo}")
+"""
 #Actividad 9
-
+"""
+total= 0
+contador = 0
+while contador < 3:
+    numero = (input("Ingrese un numero "))
+    total += numero
+    contador += 1
+    media= total // contador
+print(f"La media de los numeros ingresados es {media}")
+"""
 #Actividad 10
 """
 print("Juguemos a dar vuelta los numeros \n")               #Mensaje para el usuario
